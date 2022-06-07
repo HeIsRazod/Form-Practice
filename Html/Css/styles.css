@@ -1,0 +1,97 @@
+
+
+body{
+    background-color: burlywood;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+
+}
+
+#general{
+    width: 1000px;
+    height: 1000px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 120px;
+    border: 3px;
+    border-style: solid;
+}
+
+h1{
+    position: relative;
+    text-align: center;
+
+}
+
+h2{
+    position: relative;
+    text-align: center;
+
+}
+
+#inputs{
+    position:relative;
+    display: block;
+    padding-top: 50px;
+    text-align: center;
+
+
+}
+
+#razas{
+    position: relative;
+    margin-top: 20px;
+
+}
+
+#razas label{
+    margin-left:350px;
+
+}
+
+#genero{
+    position: relative;
+    margin-top: 20px;
+
+}
+
+#genero label{
+
+    margin-left: 350px;
+
+}
+
+#arma{
+    position:relative;
+    margin-top: 20px;
+    text-align: center;
+
+}
+
+#mensaje{
+    width: 320px;
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+
+
+}
+
+#texto{
+    margin-top: 20px;
+    display: block;
+
+}
+
+.error{
+    border: 1px solid red;
+}
+
+.errorSub{
+    text-decoration: underline red;
+}
+
+
+
+
