@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulario de practica</title>
+    <link rel="stylesheet" href="Css/style.css"/>
+  </head>
+  <body>
+    <h1>Formulario de practica!</h1>
+
+    <h2>
+      Este formulario sirve para convertirse en un guerrero, rellene los campos
+      sabiamente
+    </h2>
+
+    <form onsubmit="return enviar()">
+      <div id="inputs">
+        <label>Ingrese su nick de guerrero</label>
+        <input id="nick" name="nick" />
+        <label>Ingrese la edad de su guerrero</label>
+        <input id="age" name="age" />
+      </div>
+
+      <div id="razas">
+          <label>Seleccione una raza para su guerrero</label>
+        <select name="razas" id="razas">
+            <option value="humano">Humano</option>
+            <option value="elfo">Elfo</option>
+            <option value="elfoOscu">Elfo Oscuro</option>
+            <option value="orco">Orco</option>
+            <option value="enano">Enano</option>
+        </select>
+      </div>
+
+      <div id="genero">
+          <label> Seleccione un genero para su guerrero</label>
+          <select name="genero" id="genero">
+              <option value="hombre">Hombre</option>
+              <option value="mujer">Mujer</option>
+              <option value="otro">Otro</option>
+          </select>
+      </div>
+
+      <div id="mensaje">
+          <label>Seleccione si su guerrero tendra un arma o una habilidad especial</label>
+          <input type="radio" id="opc1" name="opciones" required/>
+          <label for="opc1"> Arma de Guerrero</label>
+          <input type="radio" id="opc2" name="opciones" checked/>
+          <label for="opc2"> Habilidad Magica</label>
+
+          <label> Deje un mensaje importante</label>
+          <input type="text" id="mensaje" name="mensaje">
+
+      </div>
+
+
+    </form>
+
+  </body>
+
+</html>
