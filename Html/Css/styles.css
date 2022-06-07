@@ -8,7 +8,7 @@ body{
 
 #general{
     width: 1000px;
-    height: 1000px;
+    height: 800px;
     position: relative;
     margin-left: auto;
     margin-right: auto;
@@ -33,64 +33,51 @@ h2{
     position:relative;
     display: block;
     padding-top: 50px;
-    text-align: center;
-
-
 }
 
-#razas{
+#input1{
     position: relative;
-    margin-top: 20px;
-
-}
-
-#razas label{
-    margin-left:350px;
-
-}
-
-#genero{
-    position: relative;
-    margin-top: 20px;
-
-}
-
-#genero label{
-
-    margin-left: 350px;
-
-}
-
-#arma{
-    position:relative;
-    margin-top: 20px;
-    text-align: center;
-
-}
-
-#mensaje{
-    width: 320px;
-    height: 200px;
+    display: block;
+    width: 250px;
+    height: 30px;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 30px;
-
-
 }
-
-#texto{
-    margin-top: 20px;
+#input2{
+    margin-top: 50px;
+    position: relative;
     display: block;
-
+    width: 250px;
+    height: 30px;
+    margin-left: auto;
+    margin-right: auto;
 }
+#input3{
+    margin-top: 50px;
+    position: relative;
+    display: block;
+    width: 250px;
+    height: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#Enviar{
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 250px;
+    margin-top: 50px;
+}
+
+
+
 
 .error{
     border: 1px solid red;
 }
 
-.errorSub{
-    text-decoration: underline red;
-}
 
 
 
